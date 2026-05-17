@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+
+/* header ke liye hai */
+.header{
+    display: flex;
+    
+    margin-left: 150px;
+    margin-right: 150px;
+
+    gap: 60px;
+    margin-top: 10px;
+
+
+}
+
+.img{
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+
+    
+    gap: 20px;
+
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.inputbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    margin-left: 340px;
+    gap: 30px;
+
+}
+
+.input input{
+
+    padding: 7px 11px 7px 11px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    outline: none;
+
+}
+
+.input{
+    /* border: 1px solid rgb(182, 180, 180); */
+    list-style: none;
+    border-radius: 22px;
+}
+
+.button button{
+    padding: 8px 11px 8px 11px;
+
+    background-color: #04b488;;
+    color: white;
+
+    border-radius: 5px;
+    border: none;
+
+
+
+}
+
+.marquee {
+
+    width: 100%;
+    color: gray;
+    font-size: 17px;
+    padding: 12px;
+    border-radius: 5px;
+
+    margin-top: 21px;
+}
+
+
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+.button1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-content: center;
+
+    margin-top: 21px;
+
+
+}
+
+.button1 button{
+
+    
+    padding: 8px 11px 8px 11px;
+
+    background-color: #04b488;;
+    color: white;
+
+    border-radius: 5px;
+    border: none;
+
+
+
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    margin-top: 30px;
+
+}
+
+
+/* india part */
+.india{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 90px;
+
+}
+
+
+
+
+
+
+.contant {
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    flex-direction: column;
+    
+}
+
+.contant h4 {
+    gap: 5px;
+    color: gray;
+    font-size: 15px;
+
+
+    
+}
+
+
+/* paragraph */
+.paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    color: gray;
+    math-depth: 0;
+
+}
+
+/* IndiaStocksMarket */
+.IndiaStocksMarket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    margin-top: 30px;
+
+}
+
+.IndiaStocksMarket h1{
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
