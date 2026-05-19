@@ -284,7 +284,7 @@ li:hover {
 
 
 
-
+/* Scroll button banaya gya hai ji side mai dikh raha hai right side mai */
 .scroll-buttons {
     display: flex;
     justify-content: flex-end;
@@ -381,14 +381,6 @@ li:hover {
 
 
 /* Search the best Restaurants  */
-/* .DiscoverBestRestaurants{
-    display: flex;
-    gap: 31px;
-
-    margin-left: 100px;
-    margin-right: 100px;
-} */
-
 
 
 .DiscoverBestRestaurants {

@@ -1,15 +1,23 @@
 // ye hai food ke liye 
+
+// querySelectorAll ---> Isaka used sare row pe lagane ke liye kiya jata hai
+// querySelector ---> Isaka used sirf pahle row pe lagane ke liye kiya jata hai
+
 function scrollFoodLeft() {
-    document.querySelector(".FoodAvailable").scrollBy({
-        left: -500,
-        behavior: "smooth"
+    document.querySelectorAll(".FoodAvailable").forEach((row) => {
+        row.scrollBy({
+            left: -500,
+            behavior: "smooth"
+        });
     });
 }
 
 function scrollFoodRight() {
-    document.querySelector(".FoodAvailable").scrollBy({
-        left: 500,
-        behavior: "smooth"
+    document.querySelectorAll(".FoodAvailable").forEach((row) => {
+        row.scrollBy({
+            left: 500,
+            behavior: "smooth"
+        });
     });
 }
 
