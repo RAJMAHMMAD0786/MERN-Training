@@ -6,7 +6,7 @@
 function scrollFoodLeft() {
     document.querySelectorAll(".FoodAvailable").forEach((row) => {
         row.scrollBy({
-            left: -500,
+            left: -400,
             behavior: "smooth"
         });
     });
@@ -15,7 +15,7 @@ function scrollFoodLeft() {
 function scrollFoodRight() {
     document.querySelectorAll(".FoodAvailable").forEach((row) => {
         row.scrollBy({
-            left: 500,
+            left: 400,
             behavior: "smooth"
         });
     });
