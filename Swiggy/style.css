@@ -828,7 +828,7 @@ li:hover {
 
 
     display: block;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -846,7 +846,7 @@ li:hover {
 
 
 /* fordownload */
-.fordownload{
+.fordownload {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -854,13 +854,16 @@ li:hover {
 
     margin-top: 31px;
     gap: 21px;
-    
+
 }
 
-.downloadoption1:hover{
+.downloadoption1:hover {
     cursor: pointer;
 }
 
-.downloadoption2:hover{
+.downloadoption2:hover {
     cursor: pointer;
 }
+
+
+/* Mobile Responsive */
