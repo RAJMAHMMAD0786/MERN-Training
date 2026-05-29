@@ -256,13 +256,64 @@ body {
 
 }
 
-/* headingofproduct */
-.headingofproduct{
-    
-    margin: 1px 2px 1px 3px ;
-    
+/* heading for mobile  */
+.headingformobile{
+    margin-left: 180px;
+    margin-top: 41px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
 
 }
+
+.headingformobile h1:hover{
+    cursor: pointer;
+}
+
+/* mobileshow */
+.mobileshow{
+    display: flex;
+    gap: 15px;
+
+
+    margin-left: 185px;
+    margin-right: 250px;
+
+    margin-top: 21px;
+
+    
+}
+
+/* poco mobile details */
+.poco:hover{
+    cursor: pointer;
+
+}
+
+
+.price{
+    font-size: 21px;
+    font-weight: bold;
+    color: #1f2937;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.price span{
+    color: #9ca3af;
+    text-decoration: line-through;
+    font-size: 17px;
+    margin-left: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.offerwithbank{
+    font-size: 17px;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
 
 
 
