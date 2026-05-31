@@ -12,4 +12,4 @@ setInterval(() => {
             behavior: "smooth"
         });
     }
-}, 1500);
+}, 3000);

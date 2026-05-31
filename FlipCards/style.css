@@ -249,6 +249,11 @@ body {
     border-radius: 16px;
 }
 
+.Airoplane:hover{
+
+    cursor: pointer;
+}
+
 
 /* boyproduct */
 .boyproduct {
@@ -381,12 +386,18 @@ body {
 }
 
 
+.groomsmart:hover{
+    cursor: pointer;
+
+}
+
+
 
 /* furniture-section */
-.furniture-section{
+.furniture-section {
     /* width: 95%; */
     width: 80vw;
-    height: 42vh;
+    height: 43vh;
     margin: 15px auto;
     background: #ff5a1f;
     border-radius: 20px;
@@ -396,20 +407,32 @@ body {
 
 }
 
-.section-header{
+
+/* Cool-Section , isake andar baki sab same hai jo furniture-section mai hai */
+.Cool-Section {
+    width: 80vw;
+    height: 40vh;
+    margin: 15px auto;
+    background: #f79774;
+    border-radius: 20px;
+
+    margin-top: 21px;
+}
+
+.section-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 11px 15px;
 }
 
-.section-header h2{
+.section-header h2 {
     color: white;
     margin: 0;
 }
 
 /* arrow button hai */
-.arrowbtn-furniture{
+.arrowbtn-furniture {
     width: 50px;
     height: 35px;
     border: none;
@@ -419,26 +442,26 @@ body {
     cursor: pointer;
 }
 
-.whitecontainer{
+.whitecontainer {
     background: white;
     margin: 0 15px 15px 15px;
     border-radius: 15px;
     padding: 10px;
 }
 
-.products{
+.products {
     display: flex;
     gap: 25px;
 }
 
-.card{
+.card {
     width: 201px;
     padding-left: 11px;
     padding-right: 11px;
-    
+
 }
 
-.card img{
+.card img {
     width: 100%;
     height: 135px;
 
@@ -449,12 +472,16 @@ body {
     border-radius: 10px;
 }
 
-.card p{
+.card:hover{
+    cursor: pointer;
+}
+
+.card p {
     margin: 8px 0 3px;
     font-size: 22px;
 }
 
-.card h3{
+.card h3 {
     margin: 0;
     font-size: 21px;
     font-weight: bold;
@@ -462,51 +489,142 @@ body {
 
 
 
-/* .furniture-section {
-    width: 80vw;
-    height: 15vh;
 
-    margin-left: 180px;
-    margin-right: 150px;
-    margin-top: 41px;
-      margin: 20px auto;
-    background: #ff5a1f;
+
+
+/* Heading of the Brands Products  */
+.headingofbrands {
+    margin-left: 150px;
+    margin-top: 31px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* FeaturedBrands */
+.FeaturedofBrands {
+    margin-left: 150px;
+    margin-top: 17px;
+    border-radius: 21px;
+
+
+}
+
+
+/* Brand product first line  */
+.BrandproductFirstLine {
+    display: flex;
+    gap: 21px;
+
+
+}
+
+
+/* Brands product second line  */
+.BrandproductSecondLine{
+    display: flex;
+    gap: 21px;
+    
+    margin-top: 17px;
+
+}
+
+/* imgofBrandproduct */
+.imgofBrandproduct img {
+    border-radius: 21px;
+
+}
+
+.imgofBrandproduct:hover{
+    cursor: pointer;
+
+}
+
+
+
+/* Cool-Section , isake andar baki sab same hai jo furniture-section mai hai */
+.Spotlights-Section {
+    width: 80vw;
+    height: 53vh;
+    margin: 15px auto;
+    background: #4cf802;
     border-radius: 20px;
 
+    margin-top: 21px;
+}
 
 
-} */
+/* Spotlightproducts */
+.Spotlightproducts{
+    display: flex;
 
-/* 
-.section-header {
-    width: 80vw;
+    padding: 1px 51px 2px 51px ;
+    /* background-color: ; */
+
+    gap: 31px;
+
+}
+
+/* Spotcardimg*/
+.Spotcardimg:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* before footer */
+.liningbeforefooter hr {
+    border: none;
+    height: 1px;
+    background-color: #e6e4e4;
+}
+
+/* footer */
+
+
+
+.firstpartoffooter{
+    width: 100vw;
     height: 5vh;
 
 
-    background-color: orangered;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
+}
 
-} */
-
-/* arrowbtn-furniture */
-/* .arrowbtn-furniture{
-    width: 41px;
-    height: 21px;
-    border: none;
-    border-radius: 25px;
-    background-color: white;
-
-    color: black;
-    font-size: 31px;
+.firstfooterparagraph {
 
     display: flex;
     align-items: center;
-    justify-content: center;
-} */
+    align-content: center;
+
+    margin-top: 11px;
+
+
+
+
+
+}
+
+
+
+
+/* secondpartoffooter */
+.secondpartoffooter{
+    width: 100vw;
+    height: 51vh;
+
+    background-color: rgb(36, 36, 36);
+    color: gray;
+}
+
 
 
 
