@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Students Attendance System</title>
+
     <link rel="stylesheet" href="style.css">
+
+
 </head>
+
+<script src="script.js"></script>
 
 <body>
     <!-- first body -->
@@ -25,123 +30,70 @@
 
                 <!-- This is for input  -->
                 <div class="inputspace">
-                    <input type="text" name="" id="" placeholder="Enter Student Name">
+                    <input type="text" name="" id="studentName" placeholder="Enter Student Name">
                 </div>
 
                 <!-- This is for Add Student button -->
                 <div class="btnAddStudent">
-                    <button>Add Student</button>
+                    <button id="addStudentBtn">Add Student</button>
                 </div>
 
                 <!-- This is for Save Attendance  -->
                 <div class="btnSaveAttendance">
-                    <button>Save Attendance</button>
+                    <button id="saveAttendanceBtn">Save Attendance</button>
                 </div>
 
             </div>
 
 
+
+
+            
             <!-- main part of the body Here i will build the table  -->
             <!-- This is the table  -->
-            <table>
 
-                <!-- This is the table head  -->
-                <thead>
-                    <tr>
-                        <!-- This is the table heading, where i set the heading of the page -->
-                        <th>ID</th>
-                        <th>Studen Name</th>
-                        <th>Status</th>
-                        <th>Attendance</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
+            <div class="tableContainer">
+                <table>
 
-                <!-- This is the table body  -->
-                <tbody>
+                    <!-- This is the table head  -->
+                    <thead>
+                        <tr>
+                            <!-- This is the table heading, where i set the heading of the page -->
+                            <th>ID</th>
+                            <th>Studen Name</th>
+                            <th>Status</th>
+                            <th>Attendance</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
 
-                    <!-- This is for first students data -->
-                    <tr>
-                        <!-- here i will set the data of the heading -->
-                        <td>1</td>
-                        <td>Raj Mahmmad</td>
+                    <!-- This is the table body  -->
+                    <tbody id="studentTableBody">
 
-                        <!-- status which students are present or Absent -->
-                        <td>
-                            <!-- present students -->
-                            <div class="present">
-                                <p>Present</p>
-                            </div>
+                        <!--  -->
 
-                        </td>
+                    </tbody>
+                </table>
+            </div>
 
-                        <td>
-                            <!-- This is the mark present button -->
-                            <div class="MarkPresentbtn">
-                                <button>Mark Present</button>
-                            </div>
 
-                        </td>
 
-                        <td>
-                            <!-- This is the delete button -->
-                            <div class="Deletebtn">
-                                <button>Delete</button>
-                            </div>
 
-                        </td>
-
-                    </tr>
-
-                    <!-- Second Students details -->
-                    <tr>
-                        <!-- here i will set the data  -->
-                        <td>2</td>
-                        <td>Pankaj Kumar</td>
-
-                        <!-- status which students are present or Absent -->
-                        <td>
-                            <!-- Absent students -->
-                            <div class="Absents">
-                                <p>Absent</p>
-                            </div>
-
-                        </td>
-
-                        <td>
-                            <!-- This is the mark present button -->
-                            <div class="MarkPresentbtn">
-                                <button>Mark Present</button>
-                            </div>
-
-                        </td>
-
-                        <td>
-                            <!-- This is the delete button -->
-                            <div class="Deletebtn">
-                                <button>Delete</button>
-                            </div>
-
-                        </td>
-                    </tr>
-
-                </tbody>
-            </table>
 
 
             <!-- footer -->
             <div class="footer">
                 <!-- total students -->
                 <div class="totalstudents">
-                    <span>Total Students: </span>
+                    <span>Total Students: <span id="totalStudents">0</span></span>
                 </div>
 
                 <div class="presentstudent">
-                    <span>Present: </span>
+                    <span>Present: <span id="presentStudents">0</span></span>
                 </div>
 
                 <div class="absentstudent">
-                    <span>Absent: </span>
+                    <span>Absent: <span id="absentStudents">0</span></span>
                 </div>
             </div>
 

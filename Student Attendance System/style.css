@@ -129,7 +129,37 @@ bode {
 }
 
 
+
+
 /* This is the table  */
+
+
+.tableContainer{
+    height: 200px; /* apne hisab se */
+    overflow-y: auto;
+}
+
+.tableContainer::-webkit-scrollbar{
+    width: 5px;
+}
+
+.tableContainer::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 10px;
+}
+
+/* table header hai jaha pe ID Studen Name etc diya gya hai */
+thead{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+
+
+
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -172,12 +202,12 @@ td {
 }
 
 /* this students is absents */
-.Absents p{
+.Absents p {
     color: red;
 }
 
 
-/* marks present  button*/
+/* marks present  button , this is the present button*/
 .MarkPresentbtn button {
     padding: 11px 31px 11px 31px;
     border: none;
@@ -188,7 +218,20 @@ td {
 
 .MarkPresentbtn button:hover {
     cursor: pointer;
-    background-color: rgb(213, 211, 211);
+    background-color: rgb(11, 238, 11);
+}
+
+
+/* This is the Absent button */
+.MarkAbsent button {
+    padding: 11px 31px 11px 31px;
+    border: none;
+    border-radius: 5px;
+}
+
+.MarkAbsent button:hover {
+    cursor: pointer;
+    background-color: rgb(237, 6, 6);
 }
 
 /* delete button */
@@ -206,8 +249,11 @@ td {
 
 
 
+
+
+
 /* footer */
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -219,15 +265,15 @@ td {
     margin-top: 31px;
     margin-left: 31px;
     margin-right: 31px;
-    
+
     border-radius: 7px;
-    
+
 
 
 }
 
 
-.footer span{
+.footer span {
     font-size: 19px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
